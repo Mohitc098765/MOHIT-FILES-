@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Surprise</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            font-family: Arial, sans-serif;
+        }
+        .surprise-button {
+            padding: 30px 60px;
+            font-size: 24px;
+            background: #fff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .surprise-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            background: #f8f8f8;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Click for a Special Surprise! ✨</h1>
+        <button class="surprise-button" onclick="window.location.href='birthday.html'">
+            See Surprise 🎁
+        </button>
+    </div>
+</body>
+</html>
